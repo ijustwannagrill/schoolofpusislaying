@@ -1,13 +1,26 @@
-Student Login
+<style>
+    h1 {
+  text-align: center;
+}
+    p {
+  text-align: center;
+}
+</style>
+<body>
+    <h1>Student Login</h1>
 <br>
-Username: <input type="text" id="username" name="studentputtingupwithbullshit">
 <br>
-Password: <input type="text" id="password" name="password1">
+<p>Username: <input type="text" id="username" name="username" placeholder="studentputtingupwithbullshit"></p>
 <br>
-<button id="myButton" class="float-left submit-button" >Login</button>
+<br>
+    <p>Password: <input type="text" id="password" name="password" placeholder="password1"></p>
+<br>
+<br>
+    <p><button id="myButton" class="float-left submit-button" >Login</button></p>
 
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
         location.href = "student";
     };
 </script>
+</body>
